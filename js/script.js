@@ -6,7 +6,7 @@ msg += '<p>height: ' + window.screen.height + '</p>';
 
 var el = document.getElementById('info');
 el.innerHTML = msg;
-alert('Current page: ' + window.location);
+//alert('Current page: ' + window.location);
 
 var msg2 = '<p><b>page title: </b>' + document.title + '<br />';
 msg2 += '<b>page address: </b>' + document.URL + '<br />';
@@ -46,4 +46,4 @@ difference = (difference / 31556900000);
 // Create a variable called elMsg to hold the element whose id attribute has a value of message
 var elMsg = document.getElementById('message');
 // Write the message into that element.
-elMsg.textContent = Math.floor(difference) + ' years of online travel advice';
+elMsg.textContent = Math.floor(difference) + ' years of experience';
