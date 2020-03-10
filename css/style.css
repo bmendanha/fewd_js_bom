@@ -4,7 +4,6 @@ body {
   background-color: #070707;
   background: url("../images/zazen.jpg");
   background-repeat: no-repeat;
-  /* background-position: 50% 50%;  */
   margin: 0;
   font-family: 'Open Sans', sans-serif;}
 
@@ -16,7 +15,8 @@ h1 {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  margin: 0px;}
+  margin: 0px;
+  z-index: -1;}
 
 h2 {
   margin: 1.75em 0 0 0;
@@ -124,3 +124,21 @@ p + h2 {
 
 .data {
   padding: 10px;}
+
+
+#table { 
+text-align: center;
+
+z-index: -1;}
+/*
+border="3" id="table" align="center" bordercolor="#F3C400" bottom="middle" 
+
+border:13;
+vertical-align: middle;
+text-align: center;
+align-self: center;
+border-color:#F3C400;
+
+}
+  */
+     
